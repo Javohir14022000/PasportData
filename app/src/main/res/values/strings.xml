@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">PasportData</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Passport Data\n Generation</string>
+    <string-array name="Region">
+        <item> Tashkent </item>
+        <item> Qashqadaryo </item>
+        <item> Surxondaryo </item>
+        <item> Andijon </item>
+        <item> Namangan </item>
+        <item> Fargona </item>
+        <item> Xorazm </item>
+        <item> Buxoro </item>
+        <item> Navoiy </item>
+        <item> Qoraqalpogiston </item>
+        <item> Samarqand </item>
+        <item> Jizzax </item>
+        <item> Sirdaryo </item>
+    </string-array>
+    <string-array name="Gender">
+        <item>Erkak</item>
+        <item>Ayol</item>
+    </string-array>
+</resources>

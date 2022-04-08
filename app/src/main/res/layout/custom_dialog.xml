@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:layout_margin="25dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tanlang:"
+                android:gravity="center"
+                android:textSize="25sp"
+                android:layout_marginVertical="5dp"
+                android:textColor="@color/black"/>
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/galereya"
+                android:layout_marginVertical="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#52CA6C"
+                android:text="Galereya"
+                android:textColor="@color/white"
+                android:layout_marginHorizontal="25dp"
+                android:paddingVertical="18sp"
+                android:textSize="18sp"/>
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/camera"
+                android:layout_marginVertical="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#52CA6C"
+                android:text="Camera"
+                android:textColor="@color/white"
+                android:layout_marginHorizontal="25dp"
+                android:paddingVertical="18sp"
+                android:textSize="18sp"/>
+        </LinearLayout>
+
+
+
+
+</LinearLayout>
